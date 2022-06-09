@@ -41,7 +41,7 @@ def get_column_mapping(mode):
 def columns_to_airr(chain_df, mode):
     column_mapping = get_column_mapping(mode)
     chain_df.rename(columns=column_mapping, inplace=True)
-    chain_df = chain_df[list(column_mapping.values())]
+    chain_df = chain_df[list(column_mapping.values()) + ["cell_id"]]
 
     return chain_df
 
@@ -90,7 +90,7 @@ def format_cdr_positions(chain_df):
             chain_df[f"cdr{cdr_nr}_{pos}"] = chain_df[f"cdr{cdr_nr}_{pos}"].apply(number_as_string)
 
 def iedb_to_airr(df, mode):
-    df["cell_id"] = df.index + 1
+    df["cell_id"] = list(range(1, len(df)+1))
 
     df = pd.concat([get_single_chain_column(df, 1, mode),
                     get_single_chain_column(df, 2, mode)],
@@ -105,6 +105,8 @@ def iedb_to_airr(df, mode):
     df["productive"] = True
     df = df.astype(object).where(df.notna(), None)
     format_cdr_positions(df)
+
+    df.sort_values(by="cell_id", inplace=True)
 
     return df
 

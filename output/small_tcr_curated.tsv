@@ -1,0 +1,21 @@
+sequence_id	sequence	rev_comp	productive	v_call	d_call	j_call	sequence_alignment	germline_alignment	junction	junction_aa	v_cigar	d_cigar	j_cigar	locus	sequence_aa	cdr1_aa	cdr1_start	cdr1_end	cdr2_aa	cdr2_start	cdr2_end	cdr3_aa	cdr3_start	cdr3_end	cell_id	iedb_receptor_id
+			T	TCRBV19		TCRBJ2-7								TRB								ASSIRSSYEQY			1	9437
+			T	TRBV19		TRBJ2-7				CASSIRSSYEQYF				TRB								ASSIRSSYEQY			2	9437
+			T	TRBV19		TRBJ2-7				CASSIRSSYEQYF				TRB								ASSIRSSYEQY			3	9437
+			T	TRBV19		TRBJ2-7				CASSIRSSYEQYF				TRB								ASSIRSSYEQY			4	9437
+			T	TRBV19		TRBJ2-7				CASSIRSSYEQYF				TRB								ASSIRSSYEQY			5	9437
+			T	TCRBV19		TCRBJ2-7								TRB								ASSIRSAYEQY			6	9448
+			T	TRBV19		TRBJ2-7				CASSIRSAYEQYF				TRB								ASSIRSAYEQY			7	9448
+			T	TRBV19		TRBJ2-7				CASSIRSAYEQYF				TRB								ASSIRSAYEQY			8	9448
+			T	TCRBV19		TCRBJ2-7								TRB								ASSSRSSYEQY			9	9451
+			T	TRBV19		TRBJ2-7				CASSSRSSYEQYF				TRB								ASSSRSSYEQY			10	9451
+			T	TCRBV19		TCRBJ2-7								TRB								ASSVRSSYEQY			11	9453
+			T	TRBV19		TRBJ2-7				CASSVRSSYEQYF				TRB								ASSVRSSYEQY			12	9453
+			T	TCRBV5-1		TCRBJ2-7								TRB								ASSLAGGYEQY			13	10084
+			T	TRBV5-1		TRBJ2-7				CASSLAGGYEQYF				TRB								ASSLAGGYEQY			14	10084
+			T	TRBV5-1		TRBJ2-7				CASSLAGGYEQYF				TRB								ASSLAGGYEQY			15	10084
+			T	TCRBV29-1		TCRBJ1-1								TRB								SVERDTEAF			16	10107
+			T	TRBV29-1		TRBJ1-1				CSVERDTEAFF				TRB								SVERDTEAF			17	10107
+			T	TCRBV15		TCRBJ2-7								TRB								ATSRDPGSYEQY			18	10334
+			T	TRBV15		TRBJ2-7				CATSRDPGSYEQYF				TRB								ATSRDPGSYEQY			19	10334
+			T	TCRBV24-1		TCRBJ2-2								TRB								ATSAGNTGELF			20	10473
