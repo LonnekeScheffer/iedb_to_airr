@@ -1,5 +1,6 @@
 # IEDB to AIRR
 Converter from csv files in IEDB format to AIRR format. 
+This converter relies on the [pandas](https://pypi.org/project/pandas/) and [airr](https://pypi.org/project/airr/) python packages. 
 
 Notes:
 - IEDB files contain both 'Curated' and 'Calculated' columns, which may contain contradicting information 
