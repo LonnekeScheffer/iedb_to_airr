@@ -89,7 +89,20 @@ def format_cdr_positions(chain_df):
         for pos in ["start", "end"]:
             chain_df[f"cdr{cdr_nr}_{pos}"] = chain_df[f"cdr{cdr_nr}_{pos}"].apply(number_as_string)
 
+def get_used_iedb_columns(mode):
+    used_cols = ["Receptor ID"]
+    for chain_nr in [1,2]:
+        used_cols += [f"Chain {chain_nr} Type", f"Chain {chain_nr} Nucleotide", f"Chain {chain_nr} Full Sequence"]
+        used_cols += [f"{mode} Chain {chain_nr} {gene} Gene" for gene in ["V", "D", "J"]]
+        used_cols += [f"Chain {chain_nr} CDR{cdr_nr} {mode}" for cdr_nr in [1, 2, 3]]
+        used_cols += [f"Chain {chain_nr} CDR{cdr_nr} Start {mode}" for cdr_nr in [1, 2, 3]]
+        used_cols += [f"Chain {chain_nr} CDR{cdr_nr} End {mode}" for cdr_nr in [1, 2, 3]]
+
+    return used_cols
+
 def iedb_to_airr(df, mode):
+    df.drop_duplicates(inplace=True, subset=get_used_iedb_columns(mode))
+
     df["cell_id"] = list(range(1, len(df)+1))
 
     df = pd.concat([get_single_chain_column(df, 1, mode),

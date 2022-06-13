@@ -13,7 +13,9 @@ share the same CDR3 sequence, but other fields (e.g., CDR1, CDR2) may differ. In
 such receptors are exported to the AIRR file as individual records. 
 - The custom column 'iedb_receptor_id' was added to the AIRR file which should allow users to look up
 additional information about the relevant receptor in the IEDB again if needed, or choose to remove 
-(near-)duplicate entries sharing the same iedb_receptor_id.
+near-duplicate entries sharing the same iedb_receptor_id.
+- All exact duplicates sharing the same iedb_receptor_id (including duplicate CDR1 and CDR2 information) 
+are collapsed. 
 - All IEDB columns that did not have an AIRR format counterpart were omitted from the AIRR output file. 
 - In AIRR format, the only column that links the two individual chains that make up a receptor 
 is the 'cell_id' column. This script adds a unique cell_id to each individual record in the IEDB file, 

@@ -18,57 +18,43 @@ sequence_id	sequence	rev_comp	productive	v_call	d_call	j_call	sequence_alignment
 			T																						9	202768
 			T																						10	202769
 			T											IGH											10	202769
-			T											IGH											11	202769
-			T																						11	202769
-			T																						12	202770
-			T											IGH											12	202770
-			T											IGH											13	204430
-			T																						13	204430
-			T											IGH											14	204431
-			T																						14	204431
-			T											IGH											15	204431
-			T																						15	204431
-			T											IGH											16	204431
-			T																						16	204431
-			T																						17	204431
-			T											IGH											17	204431
-			T																						18	204431
-			T											IGH											18	204431
-			T																						19	204432
-			T											IGH											19	204432
-			T																						20	204433
-			T											IGH											20	204433
-			T																						21	204433
-			T											IGH											21	204433
-			T																						22	204434
-			T											IGH											22	204434
-			T																						23	204435
-			T											IGH											23	204435
-			T											IGH											24	204436
-			T																						24	204436
-			T																						25	204437
-			T											IGH											25	204437
-			T																						26	204438
-			T											IGH											26	204438
-			T																						27	204438
-			T											IGH											27	204438
-			T																						28	204439
-			T											IGH											28	204439
-			T																						29	204440
-			T											IGH											29	204440
-			T																						30	204441
-			T											IGH											30	204441
-			T																						31	204442
-			T											IGH											31	204442
-			T											IGH											32	204443
-			T																						32	204443
-			T																						33	204444
-			T											IGH											33	204444
-			T																						34	204445
-			T											IGH											34	204445
-			T																						35	204446
-			T											IGH											35	204446
-			T																						36	204447
-			T											IGH											36	204447
-			T	IGHV2-5*09		IGHJ4*02								IGH	QVTLRESGPTLVKPKQTLTLTCTFSGFSLSTPGGGVGWIRQPPGKALEWLALIYWDDDKRYSPSLKSSLTITKDTSKNQVVLTMTNMDPVDTATYYCARLTAADTIFDCWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDKTHHHHHH	GFSLSTPGGG	27	35	IYWDDDK	54	59	ARLTAADTIFDC	99	109	37	204643
-			T	IGLV2-14*03		IGLJ3*01								IGL	QSALTQPASVSGSPGLSITISCTATSSDVGAYNYVSWYQQHPGQAPKLMIYDVSKRPSGVSNRFSGSKSANTASLTISGLQAEDEADYYCSSYTTTSVVFGGGTKLTVLGQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS	SSDVGAYNY	27	34	DVS	53	54	SSYTTTSVV	92	99	37	204643
+			T											IGH											11	202770
+			T																						11	202770
+			T											IGH											12	204430
+			T																						12	204430
+			T											IGH											13	204431
+			T																						13	204431
+			T																						14	204432
+			T											IGH											14	204432
+			T																						15	204433
+			T											IGH											15	204433
+			T																						16	204434
+			T											IGH											16	204434
+			T											IGH											17	204435
+			T																						17	204435
+			T																						18	204436
+			T											IGH											18	204436
+			T																						19	204437
+			T											IGH											19	204437
+			T																						20	204438
+			T											IGH											20	204438
+			T																						21	204439
+			T											IGH											21	204439
+			T																						22	204440
+			T											IGH											22	204440
+			T																						23	204441
+			T											IGH											23	204441
+			T																						24	204442
+			T											IGH											24	204442
+			T											IGH											25	204443
+			T																						25	204443
+			T																						26	204444
+			T											IGH											26	204444
+			T																						27	204445
+			T											IGH											27	204445
+			T																						28	204446
+			T											IGH											28	204446
+			T																						29	204447
+			T											IGH											29	204447
+			T	IGHV2-5*09		IGHJ4*02								IGH	QVTLRESGPTLVKPKQTLTLTCTFSGFSLSTPGGGVGWIRQPPGKALEWLALIYWDDDKRYSPSLKSSLTITKDTSKNQVVLTMTNMDPVDTATYYCARLTAADTIFDCWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDKTHHHHHH	GFSLSTPGGG	27	35	IYWDDDK	54	59	ARLTAADTIFDC	99	109	30	204643
+			T	IGLV2-14*03		IGLJ3*01								IGL	QSALTQPASVSGSPGLSITISCTATSSDVGAYNYVSWYQQHPGQAPKLMIYDVSKRPSGVSNRFSGSKSANTASLTISGLQAEDEADYYCSSYTTTSVVFGGGTKLTVLGQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADSSPVKAGVETTTPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS	SSDVGAYNY	27	34	DVS	53	54	SSYTTTSVV	92	99	30	204643
